@@ -19,9 +19,6 @@ build_script:
 test_script:
   - yarn run lint  # скрипт тестирования
 
-start:
-  - yarn dev
-
 deploy_script:  # скрипт развёртывания
   - git config --global credential.helper store
   - git config --global user.name AppVeyor
